@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background-color: #D1D5DB;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  border: 1px solid white;
+  margin: 0 auto;
+  width: 600px;
+  background-color: white;
+}
+
+header {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.schemes-select {
+  width: 300px;
+  border: 1px solid #D1D5DB;
+  border-radius: 5px;
+  padding: 7px 0;
+}
+
+input {
+  height: 35px;
+  width: 50px;
+}
+
+button {
+  border: 1px solid #D1D5DB;
+  background: white;
+  border-radius: 5px;
+  padding: 10px 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #D1D5DB;
+}
+
+button:active {
+  background: black;
+  color: white;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 400px auto;
+}
+
+p {
+  grid-row: 2;
+  text-align: center;
+}
+
+#schemes-1 {
+  background-color: "";
+}
+
+#schemes-2 {
+  background-color: "";
+}
+
+#schemes-3 {
+  background-color: "";
+}
+
+#schemes-4 {
+  background-color: "";
+}
+
+#schemes-5 {
+  background-color: "";
+}

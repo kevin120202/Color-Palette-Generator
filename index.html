@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Scheme Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Color Palette Generator</h1>
+  <div class="container">
+    <header>
+      <input type="color" id="seed-color">
+      <select name="schemes" class="schemes-select" id="color-scheme">
+        <option value="monochrome">Monochrome</option>
+        <option value="monochrome-dark">Monochrome Dark</option>
+        <option value="monochrome-light">Monochrome Light</option>
+        <option value="analogic">Analogic</option>
+        <option value="complement">Complement</option>
+        <option value="analogic-complement">Analogic-complement</option>
+        <option value="triad">Triad</option>
+      </select>
+      <button id="get-color-btn">Get Color Scheme</button>
+    </header>
+
+    <main class="container">
+      <div class="schemes" id="schemes-1"></div>
+      <p class="hex-1" id="hex-1">hex</p>
+      <div class="schemes" id="schemes-2"></div>
+      <p class="hex-2" id="hex-2">hex</p>
+      <div class="schemes" id="schemes-3"></div>
+      <p class="hex-3" id="hex-3">hex</p>
+      <div class="schemes" id="schemes-4"></div>
+      <p class="hex-4" id="hex-4">hex</p>
+      <div class="schemes" id="schemes-5"></div>
+      <p class="hex-5" id="hex-5">hex</p>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
